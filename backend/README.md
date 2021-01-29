@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## project with postgresql and 
+http://knexjs.org/#Migrations
+https://www.postgresql.org/
+run migrates and config conection postgresql 
+
 ## Available Scripts
 
 In the project directory, you can run:
