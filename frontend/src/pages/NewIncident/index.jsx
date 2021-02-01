@@ -24,14 +24,15 @@ export default () => {
             value,
         };
 
-
-        console.log(data);
-
         try {
          const res =   await api.post('incidents',data,{
                 headers:{
                     Authorization: ongid 
                 }
+            }).then(response=>{
+                console.log(response)
+            }).catch((err)=>{
+                console.log(err)
             });
 
             console.log(res);

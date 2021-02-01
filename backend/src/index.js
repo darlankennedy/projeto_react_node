@@ -29,7 +29,7 @@ app.use(routes);
 //query build :table('users').select('*').where()
 //vamos usar knex 
 
-app.listen(port,() =>{
+app.listen(port,'127.0.0.1',() =>{
     console.log(`porta do servidor é ${port}`);
 });
 
